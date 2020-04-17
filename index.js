@@ -32,6 +32,6 @@ app.get("/sms", (req, res) => {
   return res.json({success: true});
 });
 
-app.listen(8000, "0.0.0.0", function () {
+app.listen(process.env.PORT || 8000, "0.0.0.0", function () {
   console.log('Servidor funcionando!');
 });

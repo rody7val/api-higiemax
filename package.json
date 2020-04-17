@@ -1,0 +1,21 @@
+{
+  "name": "api-higiemax",
+  "version": "1.0.0",
+  "description": "api higiemax",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "telesignsdk": "^2.2.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rod7val@gmail.com",
+  "license": "ISC"
+}
